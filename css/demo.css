@@ -1,0 +1,42 @@
+.tree_one> li{
+    float: left;
+    margin-left: 20px;
+    background-color: aqua;
+    list-style: none;
+}
+.tree_one> li:hover{
+    background-color: brown;
+}
+.tree_two{
+    display: none;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: right;
+    position: relative;
+}
+
+.tree_two> li{
+    list-style: none;
+    background-color: antiquewhite;
+
+}
+.tree_two> li:hover{
+    background-color: yellow;
+}
+
+.tree_three{
+    display: none;
+    width: 50px;
+    position: absolute;
+    right: -50px;
+    top: 0px;
+}
+.tree_three> li{
+    list-style: none;
+    background-color: blue;
+}
+.tree_three> li:hover{
+    list-style: none;
+    background-color:red;
+}
